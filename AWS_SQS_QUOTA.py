@@ -37,7 +37,6 @@ def check_sqs_queue_status(access_key, secret_key, region, queue_url):
 
 # Usage
 if __name__ == "__main__":
-    # Best Practice: Avoid hardcoding keys. Use environment variables or IAM roles.
     ACCESS_KEY = 'YOUR_ACCESS_KEY'
     SECRET_KEY = 'YOUR_SECRET_KEY'
     REGION = 'us-east-1'
